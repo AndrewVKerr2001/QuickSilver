@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.app.json",
+  "include": [
+    "lib/**/*.ts",
+    "lib/**/*.tsx",
+    "lib/**/*.js",
+    "lib/**/*.jsx",
+    "lib/**/*.vue"
+  ],
+  "compilerOptions": {
+    "baseUrl": "."
+  }
+}

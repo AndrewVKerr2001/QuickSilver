@@ -4,4 +4,4 @@
   </button>
 </template>
 
-<style lang="css" module src="./QSButton.module.css"></style>
+<style lang="css" module src="./style.module.css"></style>
