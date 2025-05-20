@@ -1,0 +1,21 @@
+@use "sass:color";
+
+$qs-colors: (
+  "primary": blue,
+  "secondary": gray,
+);
+
+:root,
+.qs-theme[data-qs-theme="light"],
+.qs-theme[data-qs-theme="light"] * {
+  @each $name, $value in $qs-colors {
+    --qs-#{$name}: #{$value};
+    --qs-#{$name}-rgb: #{color.channel($value, "red")},
+      #{color.channel($value, "green")}, #{color.channel($value, "blue")};
+  }
+
+  --qs-body-bg: white;
+  --qs-body-bg-rgb: 255, 255, 255;
+  --qs-body-color: black;
+  --qs-body-color-rgb: 0, 0, 0;
+}
