@@ -1,0 +1,7 @@
+@use "base";
+
+@each $name in base.$qs-color-palette {
+  .text-#{$name} {
+    color: var(--qs-#{$name});
+  }
+}
