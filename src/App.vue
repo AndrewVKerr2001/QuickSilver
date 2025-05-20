@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import QSButton from "../lib/components/QSButton.vue";
+</script>
+
 <template>
-  <h1 class="text-primary">Hello World</h1>
+  <QSButton />
 </template>
+
+<style lang="css" scoped></style>
