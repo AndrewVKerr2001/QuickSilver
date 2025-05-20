@@ -1,5 +1,7 @@
 <template>
-  <button>
+  <button :class="$style">
     <slot>Button</slot>
   </button>
 </template>
+
+<style lang="css" module src="./QSButton.module.css"></style>
