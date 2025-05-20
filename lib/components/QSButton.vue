@@ -1,5 +1,5 @@
 <template>
-  <button :class="$style">
+  <button :class="$style['qs-btn']">
     <slot>Button</slot>
   </button>
 </template>
